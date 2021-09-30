@@ -11,10 +11,10 @@ use those suffixes, not cpp/hpp/etc). ccfancybuild will create a subdir named
 
 To use, you can either:
 
-* Run `ccfancybuild` with a file named ccfancy.buildfile existing in that same
+* Run `ccfancybuild` with a file named default.ccbuildfile existing in that same
   directory. See the sample directories for buildfile examples.
 * Run `ccfancybuild mycustombuildfilename` to load a buildfile named
-  mycustombuildfilename, rather than ccfancy.buildfile.
+  mycustombuildfilename, rather than default.ccbuildfile.
 
 Suggested compilation command:
 `g++ -g -std=c++17 ccfancybuild.cc -o ccfancybuild && sudo cp ccfancybuild /usr/local/bin/`
