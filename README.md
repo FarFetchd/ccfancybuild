@@ -17,4 +17,4 @@ To use, you can either:
   mycustombuildfilename, rather than default.ccbuildfile.
 
 Suggested compilation command:
-`g++ -std=c++17 ccfancybuild.cc -o ccfancybuild && sudo cp ccfancybuild /usr/local/bin/`
+`g++ -std=c++17 ccfancybuild.cc -o ccfancybuild -lstdc++fs && sudo cp ccfancybuild /usr/local/bin/`
